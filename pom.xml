@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.htsc</groupId>
-    <artifactId>design_pattern</artifactId>
+    <artifactId>dickinson</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>design_pattern</name>
-    <description>design_pattern</description>
+    <name>dickinson</name>
+    <description>dickinson</description>
     <properties>
         <java.version>16</java.version>
     </properties>
