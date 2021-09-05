@@ -9,6 +9,7 @@
 - 死锁
 - 原子性、可见性、有序性
 - happens-before
+- 核心线程数依据：cpu密集型 || io密集型
 ```
 
 ### threadlocal
