@@ -101,13 +101,6 @@ JVM 每次只会使用 Eden 和其中的一块 Survivor 区域来为对象服务
 Perm不属于堆内存，有虚拟机直接分配，但可以通过-XX:PermSize -XX:MaxPermSize 等参数调整其大小。
 ```
 
-#### GC原理
-
-```
-
-
-```
-
 #### 对象存活分析
 
 ```
@@ -125,6 +118,8 @@ Perm不属于堆内存，有虚拟机直接分配，但可以通过-XX:PermSize 
 
 2、G1垃圾回收算法
 定义：以region为单位. 最大价值回收
+
+3、ZGC垃圾回收算法
 ```
 
 #### Java引用
@@ -209,11 +204,8 @@ Java三大性能调优参数 java -Xms128m -Xmx128m -Xss256k -jar xxxxx.jar
 -Xmx：堆能达到的最大值
 -Xss：规定了每个线程虚拟机栈（堆栈）的大小，一般256k就足够了，此配置会影响此进程中并发线程数的大小
 
-```
+jvm参数配置原则
 
-#### 内存泄漏 && 内存溢出
-
-```
 
 ```
 
@@ -242,21 +234,15 @@ GC 分为两种：Minor GC、Full GC ( 或称为 Major GC )。
 minor gc -> major gc -> full gc -> oom
 minor gc 发生在新生代，采用 标记-复制算法
 Full GC/Major GC 发生在老年代，采用 标记 - 清除算法
+
+本地模拟gc 
+1、死循环
+2、手动gc - system.gc()
 ```
 
-#### 本地模拟gc 
+#### 三色标记法
 
 ```
-死循环
-手动gc - system.gc()
-```
 
-#### 单位换算
-
-```
-1 Byte = 8 bits
-1 KB = 1024 Bytes
-1 MB = 1024 KB
-1 GB = 1024 MB
 ```
 
