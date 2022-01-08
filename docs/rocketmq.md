@@ -1,0 +1,33 @@
+## rocketmq
+
+```
+start mqnamesrv.cmd
+
+start mqbroker.cmd -n 127.0.0.1:9876 autoCreateTopicEnable=true
+
+mvn clean package -Dmaven.test.skip=true
+
+java -jar rocketmq-console-ng-1.0.0.jar
+
+127.0.0.1:9876
+
+http://localhost:8080
+
+set NAMESRV_ADDR=localhost:9876
+
+tools.cmd org.apache.rocketmq.example.quickstart.Producer
+
+tools.cmd org.apache.rocketmq.example.quickstart.Consumer
+
+mqshutdown.cmd broker
+
+mqshutdown.cmd namesrv
+
+
+
+
+
+
+
+```
+
