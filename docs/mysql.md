@@ -100,5 +100,13 @@ redolog
 undolog
 
 
+redis、mysql数据同步？？？？
+1 基于消息中间件删除缓存
+2 基于canal监听binlog删除缓存
+3 延时双删
+
+[mysql底层优化]
+
+
 
 

@@ -31,3 +31,6 @@ mqshutdown.cmd namesrv
 
 ```
 
+死信队列、延迟队列
+
+事务消息、顺序消息
