@@ -1,5 +1,7 @@
-package com.htsc.design.pattern.controller;
+package com.htsc.controller;
 
+import com.htsc.mapper.dao.UserMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,12 +11,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorld {
 
+    @Autowired
+    private UserMapper userMapper;
+
     /**
      * method get_mapping
      * @return hello
      */
     @GetMapping("/hello")
     public String sayHello() {
-        return "hello dickinson";
+        return userMapper.getUserNameByUserId(1);
     }
 }

@@ -108,5 +108,9 @@ redis、mysql数据同步？？？？
 [mysql底层优化]
 
 
+DQL/DML/DDL/TCL
+
+二叉树、红黑树、hash表、B-Tree、B+-Tree
+
 
 
