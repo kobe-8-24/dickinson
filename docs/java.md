@@ -40,9 +40,15 @@ aqs如何实现可重入锁
 
 reentrantlock、volatile、semphore、condition、wait、await、notify、notifyAll
 
+并发juc
+
+内存逃逸
+
 设计模式 - 发短信、豆芽、邮件等方式, 采用观察者模式、策略模式加配置灵活使用、责任链、单例工厂、工厂模式
 
 java异常 - runtimeException、Exception
+
+
 
 
 
