@@ -34,4 +34,10 @@ update xx set stock = stock -1 where id = xxxx and stock > 0 -- 行锁
 
 https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
+qps、tps、并发数 估算
+
+项目架构实现一般思路！！！
+
+跨系统如何实现幂等
+
 

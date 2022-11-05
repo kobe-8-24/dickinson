@@ -1,10 +1,14 @@
-## java
+## Java
 
 ```
 基本数据类型
 byte、short、int、long、char、float、double、boolean
 
-集合 - hashmap、concurrenthashmap、 
+集合 
+- hashmap、concurrenthashmap
+- hashmap和treemap的区别，hashmap如何实现，put和get过程
+- hashset底层原理
+
 
 tcp三次握手
 
@@ -54,7 +58,16 @@ java异常 - runtimeException、Exception
 
 log4j / logback /slf4j
 
-lombok / 
+lombok
+
+序列化及其作用
+
+String、StringBuilder、StringBuffer区别？？
+
+自定义注解如何实现？？
+
+
+
 
 
 

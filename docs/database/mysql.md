@@ -112,5 +112,17 @@ DQL/DML/DDL/TCL
 
 二叉树、红黑树、hash表、B-Tree、B+-Tree
 
+1、sql优化一般思路
+
+2、mysql集群如何实现高可用
+
+3、数据量较大的如何分库分表
+
+4、update如何加锁？？version如何实现？？
+
+5、mysql常见的索引方式
+ 
+6、
+
 
 

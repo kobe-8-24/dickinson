@@ -23,3 +23,10 @@ docker info: 查看docker的详细信息
 docker images:查看docker中包含的镜像信息
 docker images -a:列出本地所有镜像（包含中间层）
 docker images -q:只显示镜像id
+
+``````
+原理
+docker文件包含内容
+dockerfile
+
+
