@@ -1,5 +1,8 @@
-## mysql
+## Referer
 
+[Mysql官方文档 - 英文](https://dev.mysql.com/doc/)
+
+[MySQL 中文文档 | MySQL 中文网](https://www.mysqlzh.com/)
 
 
 ### 索引
