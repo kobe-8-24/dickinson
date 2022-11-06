@@ -1,7 +1,6 @@
-## zookeeper
+## Referer
 
-``````
-选举机制
+[zookeeper官网](https://zookeeper.apache.org/)
 
 
 
