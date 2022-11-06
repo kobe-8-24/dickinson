@@ -9,6 +9,4 @@
 [六大原则](https://zhuanlan.zhihu.com/p/93770973)
 
 ```markdown
-
-
 ```
