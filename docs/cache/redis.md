@@ -1,4 +1,10 @@
-## Redis
+## Referer
+
+[redis官方文档-英文](https://redis.io/)
+
+[redis官方文档-中文](https://www.redis.net.cn/)
+
+[redis官方文档-中文2](http://www.redis.cn/) 
 
 ```
 1、缓存预热
