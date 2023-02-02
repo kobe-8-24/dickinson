@@ -29,15 +29,17 @@ mqshutdown.cmd broker
 mqshutdown.cmd namesrv
 
 
+死信队列、延迟队列
 
+事务消息、顺序消息
+
+MQ延迟消息如何实现？？
+
+消息队列削峰解耦
 
 
 
 
 ```
 
-死信队列、延迟队列
 
-事务消息、顺序消息
-
-MQ延迟消息如何实现？？
