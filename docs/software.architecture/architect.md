@@ -14,7 +14,7 @@
 
 (2)非功能性架构设计
 - 开发框架
-- Paas、Iaas
+- Paas、Iaas、saas、faas、baas
 
 3、数据中台/业务中台
 
