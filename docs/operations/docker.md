@@ -33,6 +33,8 @@ docker images -q:只显示镜像id
 docker文件包含内容
 dockerfile
 
+docker容器重启host失效/ip不变
+
 
 ```
 
