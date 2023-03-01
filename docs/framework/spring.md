@@ -6,7 +6,6 @@
 
 [Spring 中文网](https://springref.com/)
 
-```
 1、spring的两大特性：
 DI依赖注入、aop动态代理
 
@@ -23,9 +22,21 @@ Spring AOP 需要依赖 IOC 容器来管理，并且只能作用于 Spring 容�
 在性能上，由于 Spring AOP 是基于动态代理来实现的，在容器启动时需要生成代理实例，在方法调用上也会增加栈的深度，使得 Spring AOP 的性能不如 AspectJ 的那么好。
 Spring AOP 致力于解决企业级开发中最普遍的 AOP(方法织入)
 
-
 4、spring bean注入方式？？作用域？？默认的哪个？？
 
-```
+5、拦截器 clienthttprequestinterceptor/过滤器 filter
 
+6、@configuration
+
+7、webMvcConfiguer
+
+8、clienthttprequestinterceptor/ClientHttpRequestFactory/URI/HttpMethod/ClientHttpRequest/超时时间
+
+9、切面/自定义注解 结合使用
+
+10、applicationcontextaware 、@postconstruct -- java注解、@component、@bean、@loadbalanced、@RestTemplate、@importSource
+
+@ComponentScan
+
+11、
 

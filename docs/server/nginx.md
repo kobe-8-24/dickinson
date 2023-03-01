@@ -6,6 +6,6 @@
 
 1、反向代理原理
 
-
+2、nginx + keepalived 高可用方案
 
 ```
