@@ -1,8 +1,0 @@
-
-
-```
-@WebMethod
-@WebService
-@WebResult
-```
-
