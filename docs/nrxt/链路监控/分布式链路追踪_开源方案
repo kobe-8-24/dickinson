@@ -1,0 +1,5 @@
+验证场景：
+
+异步、消息、restTemplate、openfeign、rpc、定时任务
+
+platform-referer 项目通过restTemplate 拦截的数据存入t_public_manage_api_audit
