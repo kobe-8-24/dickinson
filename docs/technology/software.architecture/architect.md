@@ -22,6 +22,7 @@
 
 5、云原生
 
+6、画 架构图/时序图 ，编写 方案思路/技术方案,   找点视频网站 processon draw.io xmind ppt 教学 bilibili    
 
 
 
