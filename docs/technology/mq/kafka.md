@@ -18,6 +18,8 @@ Pulsar优化Kalfka
 
 Kafka解耦ZK
 
+reblance机制
+
 
 
 ### 延迟消息实现

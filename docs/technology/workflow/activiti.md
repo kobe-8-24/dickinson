@@ -14,3 +14,5 @@ Activiti是一种轻量级，可嵌入的BPM引擎，而且还设计适用于可
 Activiti将提供宽松的Apache许可2.0，同时促进Activiti BPM引擎和BPMN 2.0的匹配。
 
 ```
+
+- 工作流实际应用以及原理

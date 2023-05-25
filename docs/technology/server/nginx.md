@@ -8,4 +8,8 @@
 
 2、nginx + keepalived 高可用方案
 
+硬件F5负载和软件负载
+lvs、nginx、keepalived、HAProxy、OpenRestry
+slb、elb负载均衡区别
+
 ```
