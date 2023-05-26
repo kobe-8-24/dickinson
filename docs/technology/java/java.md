@@ -74,8 +74,10 @@ String、StringBuilder、StringBuffer区别？？
 
 反射获取 方法名称/参数 等信息
 
-
+spi机制详解 https://pdai.tech/md/java/advanced/java-advanced-spi.html
 
 ```
 
-spi机制详解 https://pdai.tech/md/java/advanced/java-advanced-spi.html
+```java
+for (;;) 与 while（true）区别
+```
