@@ -211,7 +211,9 @@ ClusterRoleBinding
 ###### 3.2.2.3.2 服务发现
 
 ```
-service - NodePort、LoadBlancer、ClusterIP、ExternalName 
+service 
+		- 暴露方式： NodePort、LoadBlancer、ClusterIP、ExternalName 
+		- Referer： https://blog.csdn.net/qq_21187515/article/details/112363072
 ingress
 ```
 
@@ -254,30 +256,75 @@ Secret
 	- 有序部署、有序扩展
 	- 有序收缩、有序删除
 2、组成
-	- Headless Service
-	- volumeClaimTemplate
+	- Headless Service：对于有状态服务的DNS管理
+	- volumeClaimTemplate：用于创建持久化卷的模板
 3、注意事项
     - k8s 1.5版本以上可支持
     - 所有pod的volume必须使用PV或者是管理员事先创建好
     - 为了保证数据安全，删除StatefulSet时不会删除volume
     - statefulset需要一个headless service来定义Dns domain，需要在statefulset之前创建好
+4、
 ```
 
 ### 4.4 DaemonSet
 
 ```markdown
-1、特点(有状态服务)
-	- 
+1、作用
+	- 保证在每个node上都运行一个容器副本，常用来部署一些集群的日志、监控或者其它系统管理应用，典型的应用包括：
+	日志收集，比如fluentd、logstash等
+	系统监控，比如 prometheus node exporter、collectd、New Relic agent、Ganglia gmond等
+	系统程序，比如kube-proxy、kube-dns、glusterd、ceph等
 ```
 
 ### 4.5 Service
+
+```markdown
+1、功能
+	- pod内部以及pod与pod之间通信，解决东西流量
+	- 实现k8s集群内部网络调用、负载均衡（四层负载）
+```
+
+### 4.6 Ingress
+
+```markdown
+1、功能
+	- 实现将k8s内部服务暴露给外网访问的服务，解决南北流量
+	
+2、实现方案
+	- ingress-nginx:反向代理、负载均衡(七层)
+```
+
+### 4.7 Pod
+
+```markdown
+1、组成
+	- 容器
+	- pause：用于 pod内部容器 共享 网络、文件系统
+```
+
+### 4.8 Job/CronJob
+
+```markdown
+1、作用
+	- 一次性任务，运行完成后Pod销毁，不再重新启动新容器
+	- cronjob 增加 定时功能 
+```
+
+### 4.9 Volume	
+
+```markdown
+1、概念
+	- 存储卷/数据卷，共享pod中容器使用的数据，用来放持久化的数据，比如数据库数据
+```
+
+### 4.10 ConfigMap
 
 ```markdown
 1、特点(有状态服务)
 	- 
 ```
 
-### 4.6 Ingress
+### 4.11 Secret
 
 ```markdown
 1、特点(有状态服务)

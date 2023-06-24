@@ -11,5 +11,10 @@
 
 延迟加载原理
 
+resultmap和resulttype 区别
+https://blog.csdn.net/dkangel/article/details/116534649
+
+
+
 
 

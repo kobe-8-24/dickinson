@@ -80,4 +80,15 @@ spi机制详解 https://pdai.tech/md/java/advanced/java-advanced-spi.html
 
 ```java
 for (;;) 与 while（true）区别
+    
+●java 编译器lambda设计思想 - final
+●语法糖
+●闭包
+●内存逃逸
+●线上gc
+●JAVA AGENT - Javaassist、Asm
+●debug相关mybatis功能视频
+    
+极海视频video
+
 ```

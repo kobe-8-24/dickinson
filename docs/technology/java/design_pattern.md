@@ -7,6 +7,3 @@
 [Java中常用的设计模式](https://blog.csdn.net/sugar_no1/article/details/88317950)
 
 [六大原则](https://zhuanlan.zhihu.com/p/93770973)
-
-```markdown
-```
