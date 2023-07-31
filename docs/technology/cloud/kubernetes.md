@@ -107,6 +107,10 @@
 ```shell
 # 作用
 		为服务提供外网入口。
+		
+1、k8s可以一个namespace一个traefik
+2、一套k8s集群可以部署多个控制器嘛
+3、ingress如何找到控制器
 ```
 
 #### 1.4.3 prometheus
@@ -278,10 +282,22 @@ Secret
 
 ### 4.5 Service
 
+![image-20230725112326100](C:\Users\57620\AppData\Roaming\Typora\typora-user-images\image-20230725112326100.png)![40a5a705ce45f8b243c63c88d86ae12](C:\Users\57620\AppData\Local\Temp\WeChat Files\40a5a705ce45f8b243c63c88d86ae12.jpg)![e070c977043717d681e1daf53e71d80](C:\Users\57620\AppData\Local\Temp\WeChat Files\e070c977043717d681e1daf53e71d80.jpg)![7606835c031204c88c136be26490ef5](C:\Users\57620\AppData\Local\Temp\WeChat Files\7606835c031204c88c136be26490ef5.jpg)
+
+![efa23bbff06ccd9ec3cd72895498800](C:\Users\57620\AppData\Local\Temp\WeChat Files\efa23bbff06ccd9ec3cd72895498800.png)![image-20230725152856911](C:\Users\57620\AppData\Roaming\Typora\typora-user-images\image-20230725152856911.png)
+
 ```markdown
 1、功能
 	- pod内部以及pod与pod之间通信，解决东西流量
 	- 实现k8s集群内部网络调用、负载均衡（四层负载）
+2、解释
+
+Annotations：指定SLB
+loadbalancer ingress：172.37.43.203（总部开发环境中台网关地址）
+	port：30012（对外暴露的地址），运营平台同步鉴权 访问 http://172.37.43.203:30012
+	targetPort：可以转发的目标端口
+NodePort：k8s集群暴露的端口，对外可提供访问 http://k8s集群ip:NodePort 提供访问
+Endpoints：service转到endpoints，再经过iptables路由到kube-porxy到pause容器
 ```
 
 ### 4.6 Ingress

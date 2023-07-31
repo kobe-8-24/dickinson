@@ -182,7 +182,7 @@ DDL 5.7及以前会加表锁，8之后Online DDL 就不用加表锁
 
 
 
-
+[MySQL多版本并发控制机制(MVCC)-源码浅析 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/144682180#:~:text=MySQL的通过MVCC以及(Next-Key,Lock)实现了可重复读(Repeatable Read)%2C其思想(MVCC)就是记录数据的版本变迁，通过精巧的选择不同数据的版本从而能够对用户呈现一致的结果。)
 
 
 

@@ -1,4 +1,4 @@
-# chatGpt
+# GPT
 
 - 研究 gtp-4 整合office、ue5、Photoshop、adobe、copilot
 - 研究gpt插件
