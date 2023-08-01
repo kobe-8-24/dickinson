@@ -104,6 +104,8 @@
 
 #### 1.4.2 ingress-controller
 
+![84d576d56ff5d4fa435985f7f0b03ad](C:\Users\57620\AppData\Local\Temp\WeChat Files\84d576d56ff5d4fa435985f7f0b03ad.jpg)
+
 ```shell
 # 作用
 		为服务提供外网入口。
