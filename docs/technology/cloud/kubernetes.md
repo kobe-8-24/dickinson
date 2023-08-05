@@ -104,7 +104,7 @@
 
 #### 1.4.2 ingress-controller
 
-![84d576d56ff5d4fa435985f7f0b03ad](C:\Users\57620\AppData\Local\Temp\WeChat Files\84d576d56ff5d4fa435985f7f0b03ad.jpg)
+![84d576d56ff5d4fa435985f7f0b03ad](C:\Users\57620\AppData\Local\Temp\WeChat Files\84d576d56ff5d4fa435985f7f0b03ad.jpg)![image-20230801190605981](C:\Users\57620\AppData\Roaming\Typora\typora-user-images\image-20230801190605981.png)
 
 ```shell
 # 作用

@@ -2,6 +2,8 @@
 
 [微服务定义](https://www.ruanyifeng.com/blog/2022/04/microservice.html)
 
+<img src="https://img-blog.csdnimg.cn/20201028155034694.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjQ5MTA3MQ==,size_16,color_FFFFFF,t_70#pic_center" alt="img" style="zoom:200%;" />
+
 
 ```
 负载均衡 lb
