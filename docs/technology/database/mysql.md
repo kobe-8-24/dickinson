@@ -170,6 +170,25 @@ DDL 5.7及以前会加表锁，8之后Online DDL 就不用加表锁
 
 7、mysql深度分页如何解决？？
 
+8、mvcc、redolog、undolog
+
+9、sql查询优化以及思路
+
+```
+
+```markdown
+啥样适合/不适合做索引？？数据比例 或者 varchar还是int
+# 若用varchar表示它的长度是多少个字节，如果你的varchar小于4个字节，那么就用varchar。如果varchar大于4个字节，那么就用int。
+
+索引的数量、类型
+
+小表关联大表
+
+索引下推原理
+
+大表如何添加索引
+
+索引覆盖/回表
 ```
 
 
