@@ -111,12 +111,14 @@ spec:
 
 13、k8s 跨集群或者跨nm访问？？k8s如何配置跨域访问
 
-service -》endpoint
+```markdown
+Kubernetes 中的 Service 和 Endpoint 之间的关系通过标签选择器来建立，
+Service 通过选择器找到后端的 Pod，Endpoint 则自动生成与 Service 关联的后端 Pod 的网络地址和端口信息。
+这使得在 Kubernetes 集群中管理和扩展应用程序的网络服务变得更加灵活和便捷
+```
 
+![](C:\Users\57620\Desktop\7e6600224e7d7fa50135d918dce85ca.jpg)
 
+![c076351df6f8cf67c9b5bc601b5367a](C:\Users\57620\Desktop\c076351df6f8cf67c9b5bc601b5367a.jpg)
 
-![7e6600224e7d7fa50135d918dce85ca](C:\Users\57620\AppData\Local\Temp\WeChat Files\7e6600224e7d7fa50135d918dce85ca.jpg)
-
-![f41e5361d4c1294b0b45a3b7de57200](C:\Users\57620\AppData\Local\Temp\WeChat Files\f41e5361d4c1294b0b45a3b7de57200.jpg)
-
-![c076351df6f8cf67c9b5bc601b5367a](C:\Users\57620\AppData\Local\Temp\WeChat Files\c076351df6f8cf67c9b5bc601b5367a.jpg)
+![f41e5361d4c1294b0b45a3b7de57200](C:\Users\57620\Desktop\f41e5361d4c1294b0b45a3b7de57200.jpg)
