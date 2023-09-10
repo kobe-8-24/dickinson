@@ -8,7 +8,7 @@
 
 [Spring Boot_Spring 中文网](https://springref.com/projects/spring-boot)
 
-###### 1、SpringBoot-启动流程
+#### 1、SpringBoot-启动流程
 
 ```
 0.启动main方法开始
@@ -32,3 +32,4 @@
 SpringBoot的启动解析代码过多，下文是整体流程的部分主要代码
 ```
 
+#### 2、Spring Boot2 为啥默认CGlib不再使用JDK代理
