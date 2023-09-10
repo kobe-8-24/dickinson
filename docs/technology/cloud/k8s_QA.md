@@ -118,3 +118,7 @@ Service 通过选择器找到后端的 Pod，Endpoint 则自动生成与 Service
 ```
 
 ![](./../photo/7e6600224e7d7fa50135d918dce85ca.jpg)
+
+![](./../photo/c076351df6f8cf67c9b5bc601b5367a.jpg)
+
+![f41e5361d4c1294b0b45a3b7de57200](./../photo/f41e5361d4c1294b0b45a3b7de57200.jpg)
