@@ -1,7 +1,5 @@
 ## k8s 疑问点
 
-![5ef4746c2a091e97e13a69c9891fa0e](C:\Users\57620\AppData\Local\Temp\WeChat Files\5ef4746c2a091e97e13a69c9891fa0e.png)
-
 ![](https://www.guoshaohe.com/wp-content/uploads/2021/05/k8s%E6%80%BB%E4%BD%93%E6%9E%B6%E6%9E%84.png)
 
 1、k8s可以一个namespace一个traefik？？还是整个k8s集群一个traefik？？

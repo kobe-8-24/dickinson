@@ -104,7 +104,7 @@
 
 #### 1.4.2 ingress-controller
 
-![84d576d56ff5d4fa435985f7f0b03ad](C:\Users\57620\AppData\Local\Temp\WeChat Files\84d576d56ff5d4fa435985f7f0b03ad.jpg)![image-20230801190605981](C:\Users\57620\AppData\Roaming\Typora\typora-user-images\image-20230801190605981.png)
+![](./../photo/image-20230801190605981(1).png)
 
 ```shell
 # 作用
@@ -284,9 +284,9 @@ Secret
 
 ### 4.5 Service
 
-![image-20230725112326100](C:\Users\57620\AppData\Roaming\Typora\typora-user-images\image-20230725112326100.png)![40a5a705ce45f8b243c63c88d86ae12](C:\Users\57620\AppData\Local\Temp\WeChat Files\40a5a705ce45f8b243c63c88d86ae12.jpg)![e070c977043717d681e1daf53e71d80](C:\Users\57620\AppData\Local\Temp\WeChat Files\e070c977043717d681e1daf53e71d80.jpg)![7606835c031204c88c136be26490ef5](C:\Users\57620\AppData\Local\Temp\WeChat Files\7606835c031204c88c136be26490ef5.jpg)
+![](./../photo/image-20230725112326100(1).png)
 
-![efa23bbff06ccd9ec3cd72895498800](C:\Users\57620\AppData\Local\Temp\WeChat Files\efa23bbff06ccd9ec3cd72895498800.png)![image-20230725152856911](C:\Users\57620\AppData\Roaming\Typora\typora-user-images\image-20230725152856911.png)
+![](./../photo/image-20230725152856911(1).png)
 
 ```markdown
 1、功能
