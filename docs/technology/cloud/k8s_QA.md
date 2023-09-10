@@ -117,8 +117,4 @@ Service 通过选择器找到后端的 Pod，Endpoint 则自动生成与 Service
 这使得在 Kubernetes 集群中管理和扩展应用程序的网络服务变得更加灵活和便捷
 ```
 
-![](D:\software\github\dickinson\docs\technology\photo\7e6600224e7d7fa50135d918dce85ca.jpg)
-
-![c076351df6f8cf67c9b5bc601b5367a](D:\software\github\dickinson\docs\technology\photo\c076351df6f8cf67c9b5bc601b5367a.jpg)
-
-![f41e5361d4c1294b0b45a3b7de57200](D:\software\github\dickinson\docs\technology\photo\f41e5361d4c1294b0b45a3b7de57200.jpg)
+![](./../photo/7e6600224e7d7fa50135d918dce85ca.jpg)
