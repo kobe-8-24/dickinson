@@ -201,6 +201,78 @@ Apache HBase是Hadoop生态系统中的开源、非关系、分布式数据库�
 - 何时可以使用Hive之类的替代方法。
 - 当我们真正需要关系查询引擎或规范化架构时。
 
+## 23.JAVA API HBASE
+
+~~~java
+在Java中，HBase（Hadoop Database）是一个开源的分布式NoSQL数据库，它构建在Hadoop之上，提供了高度可扩展的、面向列的存储系统。HBase的Java API允许开发者使用Java编程语言与HBase进行交互。以下是使用Java API与HBase进行操作的一些常见任务和示例：
+
+**注意：在使用HBase Java API之前，你需要确保已经正确安装和配置了HBase集群。**
+
+1. **连接到HBase集群：**
+
+   ```java
+   Configuration conf = HBaseConfiguration.create();
+   Connection connection = ConnectionFactory.createConnection(conf);
+   ```
+
+2. **创建表：**
+
+   ```java
+   Admin admin = connection.getAdmin();
+   TableName tableName = TableName.valueOf("mytable");
+   HTableDescriptor tableDescriptor = new HTableDescriptor(tableName);
+   tableDescriptor.addFamily(new HColumnDescriptor("cf1"));
+   admin.createTable(tableDescriptor);
+   ```
+
+3. **插入数据：**
+
+   ```java
+   TableName tableName = TableName.valueOf("mytable");
+   Table table = connection.getTable(tableName);
+   Put put = new Put(Bytes.toBytes("row1"));
+   put.addColumn(Bytes.toBytes("cf1"), Bytes.toBytes("col1"), Bytes.toBytes("value1"));
+   table.put(put);
+   ```
+
+4. **获取数据：**
+
+   ```java
+   Get get = new Get(Bytes.toBytes("row1"));
+   Result result = table.get(get);
+   byte[] value = result.getValue(Bytes.toBytes("cf1"), Bytes.toBytes("col1"));
+   ```
+
+5. **扫描表数据：**
+
+   ```java
+   Scan scan = new Scan();
+   ResultScanner scanner = table.getScanner(scan);
+   for (Result result : scanner) {
+       // 处理每一行的数据
+   }
+   scanner.close();
+   ```
+
+6. **删除数据：**
+
+   ```java
+   Delete delete = new Delete(Bytes.toBytes("row1"));
+   delete.addColumn(Bytes.toBytes("cf1"), Bytes.toBytes("col1"));
+   table.delete(delete);
+   ```
+
+7. **关闭连接：**
+
+   ```java
+   connection.close();
+   ```
+
+这只是使用HBase Java API执行基本操作的示例。HBase还提供了许多高级功能，如过滤器、事务支持等。你可以根据具体的需求深入学习和使用HBase的Java API，以实现更复杂的数据库操作。要查看更多详细信息和示例，请参考HBase官方文档和API文档。
+~~~
+
+
+
 ## **结论**
 
 希望上述HBase面试问题能帮助你准备Hadoop面试。但是，首先，HBase面试问题首先，你必须了解Hadoop。以上就是今天的内容了，如果对你有所帮助，希望你能够关注、点赞、转发一键三连支持一下。

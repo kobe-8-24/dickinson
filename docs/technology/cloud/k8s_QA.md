@@ -4,6 +4,10 @@
 
 1、k8s可以一个namespace一个traefik？？还是整个k8s集群一个traefik？？
 
+[你们在公司是怎么使用k8s和docker的？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/555213359?utm_id=0)
+
+[K8s 工程师必懂的 10 种 Ingress 控制器 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/88123412?utm_id=0)
+
 2、一个k8s集群可以部署多套控制层吗？？就是一个命名空间
 
 3、ingress如何找到控制器？？比如 ingress nginx 或者 traefik
@@ -14,7 +18,9 @@
 
 6、traefik编排文件解读
 
-7、ingress可以跨集群访问应用ui嘛？[你我本非一个世界，为何强求从我的世界经过 | 不同 k8s 集群间服务如何相互访问？ - 掘金 (juejin.cn)](https://juejin.cn/post/7205562168359895095)
+7、ingress可以跨集群访问应用ui嘛？
+
+[你我本非一个世界，为何强求从我的世界经过 | 不同 k8s 集群间服务如何相互访问？ - 掘金 (juejin.cn)](https://juejin.cn/post/7205562168359895095)
 
 8、ingress、service、endpoint、pod
 
